@@ -1,0 +1,69 @@
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    line-height: 40pt;
+}
+
+.newspaper {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 50pt;
+}
+
+.header {
+    text-align: center;
+}
+
+.journal {
+    font-weight: bold;
+}
+
+.journal_title {
+    font-size: 35pt;
+}
+
+h2 {
+    font-size: 30pt;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+.illustration {
+    font-style: normal;
+    font-weight: bold;
+    color: gray;
+}
+
+.article {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+p {
+    margin-top: 5%;
+}
+
+figure {
+    text-align: center;
+}
+
+.footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-style: italic;
+}
