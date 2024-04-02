@@ -10,9 +10,16 @@
 <body>
 <nav class="navbar navbar-expand-md navbar-light bg-light">
 	<a href="#" class="navbar-brand">A DHDK test</a>
-	<ul>
-		<li>Menu</li>
-	</ul>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNav">
+		<ul class="navbar-nav">
+			<li class="nav-item"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+				Menu
+			  </button></li>
+		</ul>
+	</div>
 </nav>
 <div class="container mt-5">
     <div class="h-100 p-5 bg-light border rounded-3">
@@ -27,22 +34,22 @@
 </div>
 <div class="container mt-5">
   <div class="row">
-	<div class="col-12 col-sm-6 col-md-4 text-justify mx-0"> 
+	<div class="col-12 col-sm-6 col-md-3 text-justify mx-0"> 
 		<p>This is area A. <p>
 		<p>On PC screens it is one fourth of thw available width (except for lateral colimns). 
 		On tablet screens it is one half of the available width and is above area C.</p>
 	</div>
-	<div class="col-12 col-sm-6 col-md-4 text-justify mx-0"> 
+	<div class="col-12 col-sm-6 col-md-3 text-justify mx-0"> 
 		<p>This is area B. <p>
 		<p>On PC screens it is one fourth of thw available width (except for lateral colimns). 
 		On tablet screens it is one half of the available width and is above area D.</p>
 	</div>
-	<div class="col-12 col-sm-6 col-md-4 text-justify mx-0"> 
+	<div class="col-12 col-sm-6 col-md-3 text-justify mx-0"> 
 		<p>This is area C. <p>
 		<p>On PC screens it is one fourth of thw available width (except for lateral colimns). 
 		On tablet screens it is one half of the available width and has area A above.</p>
 	</div>
-	<div class="col-12 col-sm-6 col-md-4 text-justify mx-0"> 
+	<div class="col-12 col-sm-6 col-md-3 text-justify mx-0"> 
 		<p>This is area D. <p>
 		<p>On PC screens it is one fourth of thw available width (except for lateral colimns). 
 		On tablet screens it is one half of the available width and has area B above.</p>
@@ -50,10 +57,24 @@
   </div>
 </div>
 
-
-<div>
-	<h4>First Modal</h4>
-	<p>This is the text of a modal</p>
+<div class="modal" id="exampleModal" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+	  	<div class="modal-content">
+			<div class="modal-header">
+		  		<h5 class="modal-title">First Modal</h5>
+		  		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+		  		</button>
+			</div>
+			<div class="modal-body">
+		  		<p>This is the text of a modal</p>
+			</div>
+			<div class="modal-footer">
+		  		<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+			</div>
+	  	</div>
+	</div>
 </div>
+
 </body>
 </html>
